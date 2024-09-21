@@ -1,0 +1,76 @@
+.contact-container {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.contact-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.contact-error {
+  color: #ffcccc;
+  margin-top: 5px;
+  font-size: 0.85rem;
+}
+
+.contact-textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-file-input {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.contact-button {
+  background-color: #ff7e5f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0px 4px 8px rgba(255, 126, 95, 0.2);
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #feb47b;
+}
